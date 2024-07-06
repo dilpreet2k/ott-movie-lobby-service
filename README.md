@@ -36,7 +36,23 @@ Ensure the following software is installed on your machine:
 ## API Documentation
 Click following link to access API Documentation:
 - [API Doc](https://dilpreet2k.github.io/)
-Note: Before Using Movie lobby APIs, please create your user, and generate token.
+
+> **Note:**
+>
+> Before using Movie Lobby CRUD operation APIs, please:
+> 1. Create a user account from [Create a new user](https://dilpreet2k.github.io/#api-User-CreateNewUser) APIs.
+> 2. And by using [login API](https://dilpreet2k.github.io/#api-User-Login), get a bearer token generated as a response, which you would be using in CRUD APIs
+> 3. Also: Please keep param ```isAdmin: true``` while creating your user account, if you wish to access following APIs:  
+>   a) [Add Movie](https://dilpreet2k.github.io/#api-Movies-Add_a_movie)  
+>   b) [Delete Movie](https://dilpreet2k.github.io/#api-Movies-DeleteMovie)  
+>   c) [Update Movie](https://dilpreet2k.github.io/#api-Movies-UpdateMovie)  
+> 4. Following APIs don't require Admin roles  
+>   a) [Create New User](https://dilpreet2k.github.io/#api-User-CreateNewUser)  
+>   b) [Login](https://dilpreet2k.github.io/#api-User-Login)  
+>   c) [Get Movies List](https://dilpreet2k.github.io/#api-Movies-Get_Movie_List)  
+>   d) [Search Movies](https://dilpreet2k.github.io/#api-Movies-SearchMovies)  
+> 
+
 
 ## Testing
 
