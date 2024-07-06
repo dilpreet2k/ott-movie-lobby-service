@@ -34,4 +34,8 @@ Ensure the following software is installed on your machine:
    ```
    npm test
 API Documentation
-<iframe src="[https://example.com/path/to/index.html](https://dilpreet2k.github.io/)" width="100%" height="300px"></iframe>
+<iframe
+  src="https://example.com/path/to/index.html"
+  style="width:100%; height:300px;"
+></iframe>
+
