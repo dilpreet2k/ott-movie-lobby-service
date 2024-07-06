@@ -30,9 +30,10 @@ Ensure the following software is installed on your machine:
    ```
    npm start
 8. Test
-   ```
+    ```
    npm test
-   
+10. Import Postmen JSON named ott_movie_lobby_service.postman_collection.json directly into Postman, it has all APIs setted up to call, or you can check [API documentation](https://dilpreet2k.github.io/) too.
+
 ## API Documentation
 Click following link to access API Documentation:
 - [API Doc](https://dilpreet2k.github.io/)
