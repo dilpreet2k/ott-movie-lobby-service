@@ -1,6 +1,20 @@
 # OTT Movie Lobby Service
 
+## Introduction
 This Microservice provides endpoints to manage a collection of movies for an OTT application's lobby. It allows users to list, search, add, update, and delete movies.
+
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Prerequisites](#prerequisites)
+3. [Setup](#setup)
+4. [API Documentation](#api-documentation)
+5. [Testing](#testing)
+6. [Code Quality](#code-quality)
+7. [Caching](#caching)
+8. [Tech-Stack](#tech-stack)
+
 
 ## Prerequisites
 
@@ -26,6 +40,10 @@ Ensure the following software is installed on your machine:
    JWT_SECRET=DEFAULT
    MONGO_URL=mongodb://127.0.0.1:27017/
    DB_NAME=movie_lobby
+> **Note:**
+>
+> Please make sure that you have Mongo DB running with DB movie_lobby
+>
 6. Run the API:
    ```
    npm start
