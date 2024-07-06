@@ -283,7 +283,7 @@ const updateMovie = async (req: Request, res: Response, next: NextFunction): Pro
  * 
  * @api {delete} /movie_lobby/movies Delete a movie
  * @apiName DeleteMovie
- * @apiGroup Movie
+ * @apiGroup Movies
  *
  * @apiParam {number} id Unique ID of the movie. (Compulsory)
  *
