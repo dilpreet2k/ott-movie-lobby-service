@@ -139,7 +139,6 @@ const MoviesHelper = {
         }
 
         const doesMovieExist = await MovieModel.findOne({ _id: id });
-        console.log(doesMovieExist);
         if (!doesMovieExist) {
             throw new Error('MOVIE_NOT_FOUND');
         }
