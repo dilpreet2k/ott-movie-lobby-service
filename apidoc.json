@@ -1,0 +1,7 @@
+{
+    "name": "OTT Movie Lobby Service",
+    "version": "1.0.0",
+    "description": "A NodeJS microservice by Dilpreet Singh",
+    "title": "OTT Movie Lobby Service",
+    "url": "http://localhost:3001"
+}

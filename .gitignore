@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+
+# Environment variables file
+#.env
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+apiDoc/
