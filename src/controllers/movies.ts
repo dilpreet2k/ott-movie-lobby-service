@@ -137,7 +137,7 @@ const addMovie = async (req: Request, res: Response, next: NextFunction): Promis
 /**
  * 
  * @author Dilpreet Singh
- * @api {get} /movie_lobby/movies/search Search movies
+ * @api {get} /movie_lobby/movies/search?q= Search movies
  * @apiName SearchMovies
  * @apiGroup Movies
  *
@@ -208,7 +208,7 @@ const searchMovies = async (req: Request, res: Response, next: NextFunction): Pr
 /**
  * 
  * @author Dilpreet Singh
- * @api {get} /movie_lobby/movies/:id Update a movie
+ * @api {put} /movie_lobby/movies/:id Update a movie
  * @apiName UpdateMovie
  * @apiGroup Movies
  *
@@ -281,9 +281,9 @@ const updateMovie = async (req: Request, res: Response, next: NextFunction): Pro
 
 /**
  * 
- * @api {delete} /movie_lobby/movies Delete a movie
+ * @api {delete} /movie_lobby/movies/:id Delete a movie
  * @apiName DeleteMovie
- * @apiGroup Movie
+ * @apiGroup Movies
  *
  * @apiParam {number} id Unique ID of the movie. (Compulsory)
  *
